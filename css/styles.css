@@ -735,8 +735,14 @@ label {
   width: 100%;
   padding-left: 38px;
   padding-right: 38px;
+  outline: none;
 }
-
+.input-name:focus {
+  border-color: var(--primary-brand-iris);
+}
+.input-name:focus + .name-icon {
+  fill: var(--primary-brand-iris);
+}
 .customer-icon-link:hover {
   fill: var(--pressed-state-ocean);
   border: 1px solid var(--pressed-state-ocean);
@@ -761,8 +767,14 @@ label {
   width: 100%;
   padding-left: 38px;
   padding-right: 38px;
+  outline: none;
 }
-
+.input-telephone-number:focus {
+  border-color: var(--primary-brand-iris);
+}
+.input-telephone-number:focus + .phone-icon {
+  fill: var(--primary-brand-iris);
+}
 .phone-icon {
   fill: var(--dark-navy-blue);
   position: absolute;
@@ -773,9 +785,6 @@ label {
   align-items: center;
   justify-content: flex-start;
 }
-.phone-input-line:focus-within {
-  border-color: var(--pressed-state-ocean);
-}
 
 .input-email-address {
   height: 40px;
@@ -784,8 +793,14 @@ label {
   width: 100%;
   padding-left: 38px;
   padding-right: 38px;
+  outline: none;
 }
-
+.input-email-address:focus {
+  border-color: var(--primary-brand-iris);
+}
+.input-email-address:focus + .email-icon {
+  fill: var(--primary-brand-iris);
+}
 .email-address {
   fill: var(--dark-navy-blue);
 }
@@ -808,6 +823,10 @@ label {
   font-size: 12px;
   line-height: calc(14 / 12);
   width: 100%;
+  outline: none;
+}
+.comment:focus {
+  border-color: var(--primary-brand-iris);
 }
 
 .comment-input-line {

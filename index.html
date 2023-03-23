@@ -620,19 +620,16 @@
           <label for="username"
             >Name
             <span class="name-input-line">
+              <input type="text" class="input-name" name="username" required />
               <svg class="name-icon" width="12" height="12">
                 <use a href="./images/svg/icons.svg#name-icon"></use>
               </svg>
-              <input type="text" class="input-name" name="username" required />
             </span>
           </label>
 
           <label for="telephone"
             >Phone
             <span class="phone-input-line">
-              <svg class="phone-icon" width="13" height="13">
-                <use a href="./images/svg/icons.svg#telephone-icon"></use>
-              </svg>
               <input
                 type="tel"
                 class="input-telephone-number"
@@ -640,15 +637,15 @@
                 name="telephone"
                 required
               />
+              <svg class="phone-icon" width="13" height="13">
+                <use a href="./images/svg/icons.svg#telephone-icon"></use>
+              </svg>
             </span>
           </label>
 
           <label for="email-address"
             >Email
             <span class="email-input-line">
-              <svg class="email-icon" width="15" height="12">
-                <use a href="./images/svg/icons.svg#email-icon"></use>
-              </svg>
               <input
                 type="mail"
                 class="input-email-address"
@@ -656,6 +653,9 @@
                 name="email-address"
                 required
               />
+              <svg class="email-icon" width="15" height="12">
+                <use a href="./images/svg/icons.svg#email-icon"></use>
+              </svg>
             </span>
           </label>
 
