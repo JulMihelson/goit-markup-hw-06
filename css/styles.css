@@ -685,12 +685,17 @@ a {
 }
 label {
   width: 100%;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-slate);
+  font-weight: 400;
+  line-height: calc(14 / 12);
 }
 .checkbox-custom {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--dark-navy-blue);
+  border: 1px solid var(--dark-navy-blue);
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -759,6 +764,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 4px;
 }
 .input-telephone-number {
   height: 40px;
@@ -784,6 +790,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 4px;
 }
 
 .input-email-address {
@@ -808,6 +815,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 4px;
 }
 .email-icon {
   position: absolute;
@@ -831,6 +839,7 @@ label {
 
 .comment-input-line {
   display: block;
+  margin-bottom: 4px;
 }
 .comment::placeholder {
   font-family: "Roboto", sans-serif;
@@ -850,6 +859,7 @@ label {
   height: 40px;
   background-color: var(--dark-navy-blue);
   padding-left: 16px;
+  color: var(--white-text);
 }
 .subscription::placeholder {
   line-height: calc(24 / 12);
