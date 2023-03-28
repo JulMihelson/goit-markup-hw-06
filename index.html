@@ -659,16 +659,17 @@
             </span>
           </label>
 
-          <label for="comment"
+          <label class="comment-input-line" for="comment"
             >Comment
-            <span class="comment-input-line">
-              <input
-                type="textarea"
-                class="comment"
-                placeholder="Text input"
-                name="comment-text"
-              />
-            </span>
+            <!-- <span class="comment-input-line"> -->
+            <textarea
+              class="comment"
+              width="360"
+              height="120"
+              placeholder="Text input"
+              name="comment-text"
+            ></textarea>
+            <!-- </span> -->
           </label>
           <input
             id="mark"
@@ -679,7 +680,7 @@
           <label for="mark" class="checkbox">
             <span class="checkbox-custom">
               <svg class="checkbox-icon" width="10" height="8">
-                <use href="../images/svg/icons.svg#checkbox-icon"></use>
+                <use href="./images/svg/icons.svg#checkbox-icon"></use>
               </svg>
             </span>
 
